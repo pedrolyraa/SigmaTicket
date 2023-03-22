@@ -1,0 +1,645 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+  }
+  body {
+    min-height: 100%;
+    background-color: #F5FFFA;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color:#134284;
+    margin: 0px;
+    
+}
+
+a:link{
+  text-decoration: none;
+  color:#134284
+}
+
+a#aceito{
+  text-decoration: none;
+  color:rgb(145, 145, 145);
+}
+
+a#aceito2{
+  text-decoration: none;
+  color:rgb(145, 145, 145);
+}
+
+a.footer-link{
+  text-decoration: none;
+  color:rgb(145, 145, 145);
+}
+
+
+.animacoes{
+ display: flex;
+ justify-content: center;
+ height: 144.5px;
+ width: 400px;
+}
+
+
+
+.termosdeuso{
+  display: flex;
+  margin-top: -121px;
+  margin-bottom: -10px;
+  padding-top: 38vh;
+  padding-bottom: 15vh;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  color: #991111;
+  height: auto;
+  width: auto;
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: #1b1b1b;
+}
+
+.index.head{
+  background-color: #F5FFFA;
+  padding: 15px;
+  height: 228px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: minhaFonte, sans-serif;
+  color: #191970;
+  height: 280px;
+}
+
+.animacoes{
+  display: flex;
+  justify-content: center;
+}
+
+@font-face{
+  font-family: minhaFonte;
+  src: url(/src1.1/fontes/Archivo-VariableFont_wdth\,wght.ttf); 
+}
+
+@font-face{
+  font-family: minhaFonte2;
+  src: url(/src1.1/fontes/momcake-bold.otf); 
+}
+
+
+
+.h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #F5FFFA;
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: minhaFonte, Arial, Helvetica, sans-serif;
+}
+
+
+
+.div0{
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #ebebef;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(235, 235, 239);
+}
+
+.divisoria1{
+  display: flex;
+  justify-content: center;
+  background-color: #483D8B;
+  border: 1px solid #ebebef;
+  width: 850px;
+  height: 120px;
+  
+}
+
+
+.divisoria{
+  color:#191970;
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  height: 100px;
+  width: 550px;
+}
+
+.divisoria2{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 530px;
+}
+
+.divisoria3{
+  display: inline-block;
+  padding-bottom: 5px;
+  border-bottom: 1px none #2e2e2e;
+  color: rgb(44, 41, 41);
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.header{
+  background-color: rgba(92, 92, 100, 0.329);
+  border: 2px solid rgb(27, 27, 27);
+  padding: 15px;
+  height: 300px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+}
+
+.cabeca{
+  background-color: #F5FFFA;
+  display:flex;
+  width: 800px;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 300px; 
+  width: 850px;
+  border: 1px solid #ebebef;
+  border-radius: 0.5em;
+
+}
+
+.cabeca2{
+  background-color: #F5FFFA;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.SigmaTicket{
+  display: flex;
+  width: auto;
+}
+
+#inputHistorico {
+  text-align: center;
+  border-radius: 20px;
+  border-color: #134284;
+  padding: 0.8rem 0rem 0.8rem 0rem;
+  color:#1b1b1b;
+  font-family: minhaFonte2, sans-serif;
+}
+
+.input-cod {
+  padding: 10px;
+  text-align: center;
+}
+
+.divA{
+  display: flex;
+  justify-content: center;
+  height: 582px;
+  background-image: url(/src1.1/imagens/back4.png);
+  
+}
+
+
+.divB{
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ebebef;
+  border-radius: 0.5em;
+  width: 850px;
+  background-color: #F5FFFA;
+}
+
+.divB.hist{
+  width: 1200px;
+  display: inline-block;
+}
+
+.divC{
+  display: flex;
+  width: 850px;
+  justify-content: space-around;
+  background-color: #F5FFFA;
+  flex-wrap: wrap;
+}
+
+.divD{
+  display: flex;
+  justify-content: space-around;
+}
+
+.divC.c{
+  display: flex;
+  background-color: #3a307c;
+  border-radius: 1em;
+  width: 600px;
+  height: 70px;
+  
+}
+
+.divB.c{
+  align-items: center;
+  color: #483D8B;
+}
+
+.divC.hist{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1200px;
+}
+
+.bodyhist {
+  display: inline-flex;
+  text-align: center;
+  
+}
+
+.linha div {
+  display: inline-flex;
+  padding: 20px;
+  text-align: center;
+  padding-left: 10px;
+  margin-left: 100px;
+}
+.forms{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.headerHist{
+  display: inline-flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+
+.headerHist h4{
+  margin-left: 2em;
+  margin-right: 2em;
+  
+}
+
+.divA.R{
+  height: 800px;
+}
+
+.divB.R{
+  height: 750px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 100px;
+}
+
+.recarga{
+  color: #1b1b1b;
+  width: auto;
+  font-size: 19px;
+  font-family: minhaFonte2,sans-serif;
+}
+
+.bilheteunico.c{
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+  align-items: center;
+
+}
+
+
+.bilheteunico{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+.bilheteduplo{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+.bilhetesemanal{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+.bilhetemensal{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+
+.h1{
+  display: flex;
+  justify-content: center;
+}
+
+.logan{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.voceaceita{
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+
+.h1{
+  width: 100%;
+  display: flex;
+}
+
+.slogan{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.termos{
+  display: flex;
+  justify-content: center;
+}
+
+.topo{
+  background-color: rgb(27, 27, 27);
+  border: 2px solid rgb(27, 27, 27);
+  padding: 15px;
+  height: 300px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.navMenu{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  color: rgb(34, 34, 34);
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.navv{
+  position: static;
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  padding-top: 40px;
+  padding-right: 0px;
+  padding-left: 0px;
+  -webkit-box-flex: 0;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  cursor: crosshair;
+  mix-blend-mode: normal;
+  overflow: visible;
+  flex: 0 1 auto;
+  border-width: 1px;
+  border-style: none;
+  border-color: rgb(0, 0, 0);
+  border-image: initial;
+  border-radius: 0px;
+  text-decoration: none;
+}
+
+.check{
+  display: flex;
+  justify-content: space-around;
+}
+
+#labelGerar{
+  color:#F5FFFA;
+  font-family: minhaFonte2, sans-serif;
+}
+
+#labelUtilizar{
+  color:#F5FFFA;
+  font-family: minhaFonte2, sans-serif;
+}
+
+#btnUtilizar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnPainel{
+  background-color: #F5FFFA;
+}
+
+.btnGerar{
+    height: 35px;
+    width: 150px;
+    border-radius: 0.5em;
+    cursor: pointer;
+    font-family: minhafonte2,sans-serif;
+    font-size: 25px;
+    transition: background-color .3s;
+    background-color: #F5FFFA;
+}
+
+.btnGerar:hover{
+  background-color: #D3D3D3;
+}
+
+.btnGerar:active{
+  background-color: gold;
+}
+
+.meio{
+  display: flex;
+  justify-content: center;
+}
+
+.menuBilhetes{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-wrap: wrap;
+  height: 520px;
+}
+
+.footer{
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items:center;
+  background-color: rgb(27, 27, 27);
+  height: 80px;
+  
+}
+    
+.footer-link{
+  margin-right: 15px;
+  margin-left: 15px;
+  color: rgb(107, 107, 107);
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.p{
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: normal;
+  font-family: "Gothic A1", sans-serif;
+
+}
+
+
+.meioB{
+  display:flex;
+  width:630px;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.meioG{
+  display:flex;
+  justify-content: center;
+  height: 400px;
+}
+
+.menuPagamento{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-wrap: wrap;
+  height: 500px;
+}
+
+
+.meioD{
+  display:flex;
+  justify-content: center;
+  height: 700px;
+}
+.meioC{
+  display:flex;
+  width:630px;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 300px;
+}
+
+.check{
+  display: flex;
+  justify-content: space-around;
+}
+
+.botao{
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  border: 15;
+  border-radius: 10px;
+  font-family: "Trebuchet ms", sans-serif;
+  font-size: 15px;
+}
+
+.modal-container{
+  z-index: 9999;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0 ,0 , 0, 0.5);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-open{
+  display: flex;
+}
+
+.modal2{
+  max-width: 700px;
+  max-height: 400px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.modal-button{
+  text-transform: uppercase;
+  padding: 0.5em 1em;
+  border: none;
+  color:white;
+  background-color: rgba(0 ,0 , 0, 0.5);
+  border-radius: 3px;
+  margin-left: 0.5em;
+}
+
+.modal-confirm{
+  background-color: brown;
+}
+
+.modal-header{
+  background-color: rgba(0 ,0 , 0, 0.5);
+}
+
+.modal-header h2{
+  margin: 1em;
+}
+
+.modal-content{
+  padding: 1em;
+}
+
+.modal-footer {
+  padding: 1em;
+  background-color: rgba(0 ,0 , 0, 0.2);
+  display: flex;
+  justify-content: flex-end;
+}
+

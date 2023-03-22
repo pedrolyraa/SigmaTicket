@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <meta content="Webflow" name="generator">
+        <link href="/src1.1/css/estilo.css" rel="stylesheet" type="text/css">
+        <link href="/src1.1/css/style.css" rel="stylesheet" type="text/css">
+        <link href="/src1.1/css/normalize.css" rel="stylesheet" type="text/css">
+    </head>
+    
+    <body class="body">
+        <form id="forms" action="/painel" method="POST"></form>
+        <div class="index head">
+            <div class="cabeca">
+                <div class="cabeca2">
+                    <div class="animacoes">
+                        <img src="/src1.1/imagens/sigma.svg">
+                        <img src="/src1.1/imagens/ticket.svg">
+                    </div>
+                    <h3>Este é o menu da Recarga do Bilhete, clique na opção de bilhete desejado para a recarga.</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="div0">
+            <div class="divisoria1">
+                <div class="divisoria">
+                    <div class="divisoria2">
+                        <div class="divisoria3">Sigma Ticket</div>
+                        <h2 class="h2">Selecione uma opção do menu!</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divA R">
+            <div class="divB R">
+                <div class="label1">
+                    <form class="recarga">
+                        <label>Digite seu Bilhete</label>
+                        <input 
+                            type="codigoBilhete"
+                            name="codigoBilhete"
+                            id="inputRecarga"
+                            placeholder="Digite seu código"
+                            maxlength="8"
+                            required                                                        
+                        />
+                    </form>
+                    <button form="forms" class="btnGerar" id="btnGerar0" onclick="">Voltar</button>
+                    <label id="label2"></label>
+                </div>
+                <div class="divC R">
+                    <div class="bilheteunico">
+                        <h2> Bilhete Único </h2>
+                        <img src="/src1.1/imagens/unico.jpeg" height="180px" width="250px">  
+                        <button class="btnGerar" id="btnRecarga1" onclick="recargaB(5,'unico',1)">Recarregar</button>  
+                    </div>
+                    
+                    <div class="bilheteduplo">
+                        <h2> Bilhete Duplo </h2>
+                        <img src="/src1.1/imagens/duplo.jpeg"height="180px" width="250px">  
+                        <button class="btnGerar" id="btnRecarga2" onclick="recargaB(10,'duplo',2)">Recarregar</button>  
+                    </div>
+                    <div class="bilhetesemanal">
+                        <h2> Bilhete Semanal </h2>
+                        <img src="/src1.1/imagens/7dias.jpeg"height="180px" width="250px">  
+                        <button class="btnGerar" id="btnRecarga3" onclick="recargaB(30,'semanal',7)">Recarregar</button>  
+                    </div>
+                    <div class="bilhetemensal">  
+                        <h2> Bilhete Mensal </h2>
+                        <img src="/src1.1/imagens/30dias.jpeg"height="180px" width="250px">  
+                        <button class="btnGerar" id="btnRecarga4" onclick="recargaB(60,'mensal',30)">Recarregar</button>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="/src1.1/javascript/recarga.js"></script>
+    <script src="/src1.1/javascript/gerar.js"></script>   
+    </body>
+
+    
+
+
+</html>

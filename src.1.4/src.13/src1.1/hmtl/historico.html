@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <meta content="Webflow" name="generator">
+        <link href="/src1.1/css/estilo.css" rel="stylesheet" type="text/css">
+        <link href="/src1.1/css/style.css" rel="stylesheet" type="text/css">
+        <link href="/src1.1/css/normalize.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body class="body">
+        <form id="forms" action="/painel" method="POST"></form>
+        <div class="index head">
+            <div class="cabeca">
+                <div class="cabeca2">
+                    <div class="animacoes">
+                        <img src="/src1.1/imagens/sigma.svg">
+                        <img src="/src1.1/imagens/ticket.svg">
+                    </div>
+                    <h3>Seja bem vindo ao sistema de bilhete urbano SigmaTicket, clique na tela para continuar.</p> 
+                </div>
+            </div>
+        </div>
+    
+        <div class="div0">
+            <div class="divisoria1">
+                <div class="divisoria">
+                    <div class="divisoria2">
+                        <div class="divisoria3">Sigma Ticket</div>
+                        <h2 class="h2">Veja seu historico de utilizacao!</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divA">
+            
+            <div class="divB hist">
+                
+                <div class="input-cod">
+                <h2 id="labelHistorico">
+                    <input 
+                        type="text"
+                        name="historico2"
+                        id="inputHistorico"
+                        placeholder="Digite seu código"
+                        maxlength="8"
+                        required/>
+                    </h2>
+                    <a type= "button" class="btnGerar" id="btnHistorico" onclick="gerenciamento()">Verificar</a>
+                    <button form="forms" class="btnGerar" id="btnGerar0" >Voltar</button>
+                </div>
+                <div class="divC hist">
+                    
+                    <div class="headerHist">
+                        <h4>Tipo do Bilhete:</h4>
+                        
+                        <h4>Data Utilização:</h4>
+                        
+                        <h4>Data Recarga:</h4>
+                        
+                        <h4>Código do Bilhete:</h4>
+                        
+                    </div>
+                    
+                    
+                </div>
+                <div class="bodyhist" id="bodyhist">
+                    <label id="tipoBilhete"></label>
+                    <label id="dataUtilizacao"></label>
+                    <label id="dataExpiracao"></label>
+                    <label id="codBilhete"></label>
+                </div>
+            </div>
+        </div>
+        <script src="/src1.1/javascript/historico.js"></script>
+    </body>
+</html>

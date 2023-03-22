@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <meta content="Webflow" name="generator">
+        <link href="/src1.1/css/estilo.css" rel="stylesheet" type="text/css">
+        <link href="/src1.1/css/style.css" rel="stylesheet" type="text/css">
+        <link href="/src1.1/css/normalize.css" rel="stylesheet" type="text/css">
+    </head>
+    
+    <body class="body">
+        <form id="forms" action="/painel" method="POST"></form>
+        <form id="forms3" action="/historico" method="POST"></form>
+        <div class="index head">
+            <div class="cabeca">
+                <div class="cabeca2">
+                    <div class="animacoes">
+                        <img src="/src1.1/imagens/sigma.svg">
+                        <img src="/src1.1/imagens/ticket.svg">
+                    </div>
+                    <h3>Este é o menu da Recarga do Bilhete, clique na opção de bilhete desejado para a recarga.</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="div0">
+            <div class="divisoria1">
+                <div class="divisoria">
+                    <div class="divisoria2">
+                        <div class="divisoria3">Sigma Ticket</div>
+                        <h2 class="h2">Insira seu Ticket para utiliza-lo!</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divA">
+            <div class="divB c">
+                <div class="divC c">
+                    <div class="divD">
+                        <div class="bilheteunico c">
+                            <h2 id="labelUtilizar"></h2>
+                            <input 
+                                type="text"
+                                name="utilizacao2"
+                                id="inputUtilizacao"
+                                placeholder="Digite seu código"
+                                maxlength="8"
+                                required                                                        
+                             />
+                            <a type= "button" class="btnGerar" id="btnUtilizar" onclick="utilizacao()">Validar</a>  
+                            <button form="forms" class="btnGerar" id="btnGerar0" >Voltar</button>
+                        </div>
+                    </div>     
+                </div>
+            <div>
+                <button form="forms3" class="btnGerar" id="btnHistorico">Histórico</button>
+            </div>     
+            </div>
+        </div>
+        <script src="/src1.1/javascript/utilizacao.js"></script>
+        <script src="/src1.1/javascript/hide.js"></script>
+    </body>
+
+    
+
+
+</html>
